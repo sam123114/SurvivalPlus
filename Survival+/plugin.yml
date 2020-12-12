@@ -1,0 +1,5 @@
+main: ca.wartog.survivalplus.Main
+name: SurvivalPlus
+version: 1.0.0
+author: WaRToG
+api-version: 1.16
