@@ -67,6 +67,7 @@ public class Events implements Listener{
         sign.update();
         
         p.sendMessage("§6You died at " + "X: §c" + loc.getBlockX() + "§6 Y: §c" + loc.getBlockY() + "§6 Z: §c" + loc.getBlockZ());
+        System.out.println("[SurvivalPlus] " + p.getName() + " died at X: " + loc.getBlockX() + " Y: " + loc.getBlockY() + " Z: " + loc.getBlockZ());
 	}
 	
 }
